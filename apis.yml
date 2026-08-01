@@ -1,9 +1,30 @@
 aid: papaya-pay
 name: Papaya Pay
-description: 'Papaya Pay is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Papaya Payments is a Los Angeles based fintech that operates a mobile-first digital
+  billing and bill-pay platform. Businesses in healthcare, government and municipalities,
+  utilities, insurance, field services, and debt collection use Papaya to let their
+  customers pay bills by photographing a paper statement or scanning a QR code and
+  paying over SMS, email, or the Papaya iOS and Android apps, with no account or login
+  required. Papaya advertises a Quickpay embeddable payment widget for paper-statement
+  and portal integrations, and states that more than 2.5 million Americans have used
+  the service. The company markets PCI, HIPAA, and SOC2 compliance. As of this profile
+  Papaya publishes no public developer portal, API documentation, or API specification;
+  it is a consumer-facing payments product rather than a developer platform. Backed by
+  Bessemer Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/papaya-pay/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: open
+  trial: false
+  try_now: false
+  public: true
+  label: Open access
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/624088616766bb8382f0ef1a/66a2adc1b6557eb8df6ab696_Logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Payments
+- Bill Pay
+- Billing
+- Digital Payments
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://papayapay.com/
+- type: Support
+  url: https://papayapay.com/contact
+- type: TermsOfService
+  url: https://papayapay.com/compliance/terms
+- type: PrivacyPolicy
+  url: https://papayapay.com/compliance/privacy
+- type: Compliance
+  url: https://papayapay.com/
+- type: Conformance
+  url: conformance/papaya-pay-conformance.yml
+- type: DomainSecurity
+  url: security/papaya-pay-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

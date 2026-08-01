@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: https://papayapay.com/
+note: >-
+  Papaya Payments publishes no public API specification. These are compliance/security
+  postures the company advertises on its marketing site (badges + copy). No dedicated
+  trust center or third-party attestation report was found to be publicly downloadable.
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: '"PCI Compliant" badge and copy on https://papayapay.com/'
+- id: hipaa
+  conforms: true
+  evidence: '"HIPAA Compliant" badge and copy on https://papayapay.com/'
+- id: soc2
+  conforms: true
+  evidence: '"SOC2 Compliant" badge and copy on https://papayapay.com/'
