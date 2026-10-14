@@ -1,0 +1,55 @@
+edges:
+- partner_name: MCP Registry
+  partner: mcp
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://registry.modelcontextprotocol.io/v0/servers?search=com.papayapay.consumer-production.mcp-agent
+  contract_reference:
+    register: registry.modelcontextprotocol.io
+    spec_file: null
+    role: mcp-server-listing
+    registered_name: com.papayapay.consumer-production.mcp-agent/bill-payment
+    register_id: com.papayapay.consumer-production.mcp-agent/bill-payment
+    detected_by: sweep-agent-tools.py
+    detected: '2026-10-14'
+  mcp_registry:
+    servers:
+    - com.papayapay.consumer-production.mcp-agent/bill-payment
+    hosted_remote: 1
+    local_package: 0
+    transports:
+      streamable-http: 1
+    auth_declared: 0
+    catalog_declared: false
+    namespace_domains:
+    - papayapay.com
+  matched_by:
+  - namespace-domain
+  detected_by: sweep-agent-tools.py
+  first_seen: '2026-10-14'
+- partner_name: Clover (own)
+  partner: clover
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.clover.com/appmarket/apps/W400XDCDCR794
+  mirror_of: clover/integrations/clover-integration-edges.yml
+  apps:
+  - Papaya
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+generated: '2026-10-14'
+method: searched
+checked:
+- clover/integrations/clover-integration-edges.yml
+- https://registry.modelcontextprotocol.io/v0/servers
+source:
+- clover/integrations/clover-integration-edges.yml
